@@ -24,6 +24,10 @@ body {
     font-weight: bold;
 }
 
+.nav a:hover {
+    color: #E2D9B6;
+}
+
 .banner {
     background-image: url(../pics/banner.jpg);
     background-position: bottom;
