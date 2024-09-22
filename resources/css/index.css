@@ -1,0 +1,184 @@
+
+body {
+    margin: 0 5%;
+    background-color: #F3EFE0;
+    font-family: "Josefin Slab";
+    justify-content: center;
+}
+
+.header {
+    font-family: Sacramento;
+   
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1em;
+  
+}
+
+.nav a {
+    margin-left: 1em;
+    color: black;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #E2D9B6;
+}
+.banner {
+    background-image: url(../pics/banner.jpg);
+    background-position: bottom;
+    height: 60vh;
+    border: solid 1px black;
+    width: 100%;
+    display: flex;
+
+}
+
+
+.example {
+    display: flex;
+    margin: 2em 1em;
+    flex-direction: column; 
+    width: 100%;
+    justify-items: center;
+   
+
+
+}
+
+.pics-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-items: space-between;
+    width: 100%;
+    background-color: #E2D9B6;
+    min-height: 250px;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+   
+   
+
+}
+.caption {
+    margin-top: 10px; 
+    font-size: 16px; 
+    position: absolute;
+    background-color: black;
+    font-weight: bold;
+}
+
+#chair {
+    background-image: url(../pics/armchair.jpg);
+    background-size: cover; 
+    background-position: center;
+    width: 250px; 
+    height: 196px; 
+    margin: 10px;
+    display: flex; 
+    align-items: flex-end; 
+    justify-content: center; 
+    color: white;
+    text-align: center;
+    position: relative;
+    border: 1px solid black;
+
+}
+
+#sofa {
+    background-image: url(../pics/sofa.jpg);
+    background-size: cover; 
+    background-position: center;
+    width: 250px; 
+    height: 196px; 
+    margin: 10px;
+    display: flex; 
+    align-items: flex-end; 
+    justify-content: center; 
+    color: white;
+    text-align: center;
+    position: relative;
+    border: 1px solid black;
+
+}
+
+#table {
+    background-image: url(../pics/table.jpg);
+    background-size: cover; 
+    background-position: center;
+    width: 250px; 
+    height: 196px; 
+    margin: 10px;
+    display: flex; 
+    align-items: flex-end; 
+    justify-content: center; 
+    color: white;
+    text-align: center;
+    position: relative;
+    border: 1px solid black;
+
+}
+
+#bed {
+    background-image: url(../pics/bed.jpg);
+    background-size: cover; 
+    background-position: center;
+    width: 250px; 
+    height: 196px; 
+    margin: 10px;
+    display: flex; 
+    align-items: flex-end; 
+    justify-content: center; 
+    color: white;
+    text-align: center;
+    position: relative;
+    border: 1px solid black;
+
+}
+
+#wardrobe {
+    background-image: url(../pics/wardrobe.jpg);
+    background-size: cover; 
+    background-position: center;
+    width: 250px; 
+    height: 196px; 
+    margin: 10px;
+    display: flex; 
+    align-items: flex-end; 
+    justify-content: center; 
+    color: white;
+    text-align: center;
+    position: relative;
+    border: 1px solid black;
+
+}
+
+
+.contact {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    flex-direction: column;
+    margin-top: 1em;
+   
+
+
+}
+
+.contact h3 {
+    text-decoration: underline;
+    font-weight: bold ;
+    padding-top: 1em;
+}
+
+.footer {
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    margin-top: 3em;
+    background-color: #E2D9B6;
+}
